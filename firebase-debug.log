@@ -1,0 +1,79 @@
+[debug] [2024-03-26T09:33:36.325Z] ----------------------------------------------------------------------
+[debug] [2024-03-26T09:33:36.328Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-03-26T09:33:36.329Z] CLI Version:   13.5.2
+[debug] [2024-03-26T09:33:36.329Z] Platform:      win32
+[debug] [2024-03-26T09:33:36.329Z] Node Version:  v18.12.1
+[debug] [2024-03-26T09:33:36.331Z] Time:          Tue Mar 26 2024 15:03:36 GMT+0530 (India Standard Time)
+[debug] [2024-03-26T09:33:36.332Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-26T09:33:36.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-26T09:33:36.343Z] > authorizing via signed-in user (saivenkatpentakota@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\web-spa10
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-03-26T09:34:04.761Z] > refreshing access token with scopes: []
+[debug] [2024-03-26T09:34:04.771Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-26T09:34:04.771Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-26T09:34:07.270Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-26T09:34:07.270Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-26T09:34:07.288Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-03-26T09:34:08.666Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-03-26T09:34:08.667Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project web-spa10 (web-spa10) 
+[info] 
+=== Hosting Setup
+[debug] [2024-03-26T09:34:15.101Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/web-spa10 [none]
+[debug] [2024-03-26T09:34:17.239Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/web-spa10 200
+[debug] [2024-03-26T09:34:17.240Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/web-spa10 {"projectId":"web-spa10","projectNumber":"883719776934","displayName":"web-spa10","name":"projects/web-spa10","resources":{"hostingSite":"web-spa10"},"state":"ACTIVE","etag":"1_9d626b60-1ee8-4afc-ae13-0c12a8be61ac"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-03-26T09:34:59.562Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-03-26T09:35:01.945Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-03-26T09:35:01.945Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.9.0","browserURL":"https://www.gstatic.com/firebasejs/10.9.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.9.0/firebase.tgz"},"live":{"version":"10.9","browserURL":"https://www.gstatic.com/firebasejs/live/10.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.9.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.9.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.9.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.9.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.9.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.9.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\web-spa10 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=140795987&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-03-26T09:35:05.832Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-03-26T09:35:05.832Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-03-26T09:35:06.257Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-03-26T09:35:06.257Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-03-26T09:35:06.268Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-03-26T09:35:06.751Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-03-26T09:35:06.752Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"saivenkat-pentakota","id":87457539,"node_id":"MDQ6VXNlcjg3NDU3NTM5","avatar_url":"https://avatars.githubusercontent.com/u/87457539?v=4","gravatar_id":"","url":"https://api.github.com/users/saivenkat-pentakota","html_url":"https://github.com/saivenkat-pentakota","followers_url":"https://api.github.com/users/saivenkat-pentakota/followers","following_url":"https://api.github.com/users/saivenkat-pentakota/following{/other_user}","gists_url":"https://api.github.com/users/saivenkat-pentakota/gists{/gist_id}","starred_url":"https://api.github.com/users/saivenkat-pentakota/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/saivenkat-pentakota/subscriptions","organizations_url":"https://api.github.com/users/saivenkat-pentakota/orgs","repos_url":"https://api.github.com/users/saivenkat-pentakota/repos","events_url":"https://api.github.com/users/saivenkat-pentakota/events{/privacy}","received_events_url":"https://api.github.com/users/saivenkat-pentakota/received_events","type":"User","site_admin":false,"name":"Saivenkat Pentakota","company":null,"blog":"","location":"visakhapatnam","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":21,"public_gists":0,"followers":0,"following":0,"created_at":"2021-07-15T02:29:15Z","updated_at":"2024-03-26T07:21:33Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":55403,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as saivenkat-pentakota 
+[info] 
+[debug] [2024-03-26T09:35:23.503Z] >>> [apiv2][query] GET https://api.github.com/repos/saivenkat-pentakota/web-spa10/actions/secrets/public-key type=owner
+[debug] [2024-03-26T09:35:23.884Z] <<< [apiv2][status] GET https://api.github.com/repos/saivenkat-pentakota/web-spa10/actions/secrets/public-key 404
+[debug] [2024-03-26T09:35:23.885Z] <<< [apiv2][body] GET https://api.github.com/repos/saivenkat-pentakota/web-spa10/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
