@@ -1,0 +1,25 @@
+.feature-item,
+.advanced-feature-item {
+    height: 100%;
+    transition: .5s;
+}
+
+.feature-item:hover {
+    margin-top: -15px;
+}
+
+.advanced-feature-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.advanced-feature-item * {
+    transition: .5s;
+}
+
+.advanced-feature-item:hover {
+    background: var(--primary);
+}
+
+.advanced-feature-item:hover * {
+    color: #FFFFFF !important;
+}

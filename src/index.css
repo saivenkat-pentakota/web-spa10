@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #4AC4F3;
+  --light: #EDF5FF;
+  --dark: #202942;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+h1,
+h2,
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+/*** Button ***/
+.btn {
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.btn.btn-primary {
+    color: var(--light);
+}
+
+.btn.btn-light {
+    color: var(--primary);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
